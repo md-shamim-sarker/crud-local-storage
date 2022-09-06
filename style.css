@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#btn-clear {
+    background-color: #f13818;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#btn-submit {
+    background-color: #3e3eef;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+        padding: 10px;
+    }
+}
